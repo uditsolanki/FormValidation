@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+        }
+
+        #header1 {
+
+            background-image: linear-gradient(rgb(10 0 0 / 32%), #0000006b), url(Land.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Super {
+            background-color: white;
+            color: rgb(19, 138, 250);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .Find {
+            text-align: center;
+            position: relative;
+            bottom: -130px;
+            font-size: 75px;
+            color: white;
+        }
+
+        #love {
+            text-align: center;
+            position: relative;
+            bottom: -160px;
+            font-size: 40px;
+            color: white;
+        }
+
+        #btn1 {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: -282px;
+            right: -593px;
+            padding: 18px;
+            width: 304px;
+            color: white;
+            background-color: rgb(19, 138, 250);
+            border: 0px;
+            border-radius: 7px;
+            font-size: 22px;
+        }
+
+        #Wellcome {
+            margin: 25px;
+            color: rgb(19, 138, 250);
+        }
+
+        #Defination {
+            margin: 25px;
+            font-size: 40px;
+        }
+
+        #Ans {
+            margin: 25px;
+            font-size: 18px;
+        }
+
+        #btn2 {
+            margin: 25px;
+            padding: 12px;
+            width: 215px;
+            color: white;
+            background-color: rgb(250, 19, 19);
+            border: 0px;
+            border-radius: 7px;
+            font-size: 21px;
+        }
+
+        #pri {
+            color: rgb(19, 138, 250);
+            text-align: center;
+
+        }
+
+        #How {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #Div1 {
+            background-repeat: no-repeat;
+            width: 443px;
+            height: 206px;
+            border-radius: 10px;
+            border: 2px solid rgb(231, 223, 223);
+            margin: auto;
+        }
+
+        #Div1,
+        img {
+            text-align: center;
+        }
+
+        #Day {
+            color: rgb(19, 138, 250);
+            text-align: center;
+            margin-bottom: 10px;
+            position: relative;
+            bottom: -20px;
+        }
+
+        #Div2 {
+            background-repeat: no-repeat;
+            width: 443px;
+            height: 206px;
+            border-radius: 10px;
+            border: 2px solid rgb(231, 223, 223);
+            margin: auto;
+        }
+
+        #Div2,
+        img {
+            text-align: center;
+        }
+
+        #Day2 {
+            color: rgb(19, 138, 250);
+            text-align: center;
+            margin-bottom: 10px;
+            position: relative;
+            bottom: -20px;
+        }
+
+        #Div3 {
+            background-repeat: no-repeat;
+            width: 443px;
+            height: 206px;
+            border-radius: 10px;
+            border: 2px solid rgb(231, 223, 223);
+            margin: auto;
+        }
+
+        #Div3,
+        img {
+            text-align: center;
+        }
+
+        #Day2 {
+            color: rgb(19, 138, 250);
+            text-align: center;
+            margin-bottom: 10px;
+            position: relative;
+            bottom: -20px;
+        }
+
+        #h1 {
+            /* background-color: blue; */
+            text-align: center;
+            margin: 25px;
+            font-size: 40px;
+            color: rgb(19, 138, 250);
+        }
+
+        #p1 {
+            margin: 25px;
+            font-size: 18px;
+
+        }
+
+        #Div4 {
+            background-color: rgb(208, 232, 255);
+            height: 195px;
+            padding: 1px;
+        }
+
+        #Div5 {
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid rgb(231, 223, 223);
+            border-radius: 5px;
+            width: 91%;
+            height: 470px;
+        }
+
+        input {
+            width: 99%;
+            height: 37px;
+            text-indent: 10px;
+            font-size: 18px;
+            border-radius: 3px;
+            border: 3px solid rgb(231, 223, 223);
+        }
+
+        label {
+            font-size: 25px;
+        }
+
+        button {
+            position: relative;
+            bottom: -12px;
+            right: -3px;
+            padding: 16px;
+            width: 99%;
+            color: white;
+            background-color: rgb(250, 19, 19);
+            border: 0px;
+            border-radius: 7px;
+            font-size: 22px;
+        }
+
+        #Div6 {
+            border: 2px solid rgb(231, 223, 223);
+            background-color: rgb(236, 236, 236);
+            height: 612px;
+        }
+
+        #img2 {
+            margin-left: 100px;
+            height: 515px;
+            width: 1300px;
+        }
+
+        #Stay {
+            margin-left: 98px;
+            color: rgb(19, 138, 250);
+            position: relative;
+            bottom: -10px;
+        }
+
+        #Support {
+            margin-left: 97px;
+            font-size: 25px;
+            position: relative;
+            bottom: -14px;
+        }
+
+        #News {
+            margin-left: 97px;
+            position: relative;
+            bottom: -21px;
+        }
+
+        #Email {
+            margin-left: 95px;
+        }
+
+        #Type {
+            width: 87%;
+            height: 33px;
+            margin-left: 91PX;
+            text-indent: 10px;
+            font-size: 18px;
+            border-radius: 3px;
+            border: 3px solid rgb(231, 223, 223);
+        }
+
+        #Submit {
+            position: relative;
+            bottom: -12px;
+            right: -92px;
+            padding: 7px;
+            width: 87%;
+            color: white;
+            background-color: rgb(19, 138, 250);
+            border: 0px;
+            border-radius: 2px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header1">
+        <h2 id="Super">SuperCarers</h2>
+        <p class="Find">Find your community's most</p>
+        <p class="Find">trusted carers.</p>
+        <p id="love">The best quality carers for the people you love.</p>
+        <button id="btn1">Find your SuperCarer</button>
+    </section>
+    <hr>
+
+    <section id="header2">
+
+        <h2 id="Wellcome">WellCome</h2>
+        <p id="Defination">What is SuperCarers?</p>
+        <p id="Ans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sint fugit nobis voluptatibus
+            minima harum voluptatem quae sit illo commodi impedit iste rem provident assumenda, deserunt inventore
+            distinctio totam delectus nostrum sed? Inventore magni laboriosam voluptatem animi dicta incidunt tempora
+            voluptate sed. Magni veritatis tempore atque? Quod excepturi deleniti magni voluptates, ipsam soluta nemo
+            adipisci maiores, rem quisquam ullam, assumenda similique molestias aut quasi quidem dicta amet accusamus
+            saepe officia at. Modi magni ipsa labore! Cum soluta modi numquam itaque tenetur rerum placeat doloribus
+            molestiae Quam quas natus perspiciatis, eum velit sit iusto dolor reiciendis placeat consectetur magnam sunt
+            ad hic explicabo ducimus libero aliquam molestiae ullam blanditiis laborum soluta, nisi alias ipsa? Nisi
+            quaerat nihil dsapiente.</p>
+        <button id="btn2">SuperCarer Works</button>
+    </section>
+    <section id="header3">
+        <h2 id="pri">PRICING</h2>
+        <p id="How">How much does it cost?</p><br>
+        <div id="Div1">
+            <p id="Day">DAY CARE</p>
+            <img src="clock1.png" alt="">
+            <p>From</p>
+            <h2>§14</h2>
+            <p>Lorem ipsum dolor sit amet consectetur elit Officiis at the.</p>
+
+        </div><br>
+        <div id="Div2">
+            <p id="Day2">NIGHT CARE</p>
+            <img src="clock1.png" alt="">
+            <p>From</p>
+            <h2>§110</h2>
+            <p>Lorem ipsum dolor sit amet consectetur elit Officiis at the.</p>
+        </div><br>
+        <div id="Div3">
+            <p id="Day">LIVE-IN CARE</p>
+            <img src="clock1.png" alt="">
+            <p>From</p>
+            <h2>§750</h2>
+            <p>Lorem ipsum dolor sit amet consectetur elit Officiis at the.</p>
+        </div>
+    </section>
+
+    <section id="header4">
+        <div id="Div4">
+            <h2 id="h1">Get started</h2>
+            <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error officiis doloribus commodi cumque
+                voluptatem consequuntur, qui soluta rerum consequatur iure corrupti, ducimus repellendus in ut deserunt!
+                Voluptatem numquam nesciunt accusamus minus unde, laudantium animi quaerat modi repellendus soluta iste,
+                eos incidunt praesentium aspernatur molestias, nulla veritatis et placeat impedit esse!</p>
+        </div>
+
+        <div id="Div5">
+            <h2>Fill the details?</h2><br>
+            <label> First name</label><br>
+            <input type="text" placeholder=" First name" required><br><br>
+            <label>Last name</label><br>
+            <input type="text" placeholder="Last name" required><br><br>
+            <label>Mobile no</label><br>
+            <input type="number" placeholder="Number" required><br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password" required><br><br>
+            <button>Submit your details</button>
+        </div>
+    </section><br>
+    <section id="header5">
+        <div id="Div6">
+            <img id="img2" src="Land2.jpeg" alt="">
+            <p id="Stay">STAY UPDATED</p>
+            <p id="Support">Advice and Support</p>
+            <p id="News">Subscribe to our newsletter</p>
+        </div><br>
+        <div id="Div7">
+            <h3 id="Email">Email Address</h3>
+            <input id="Type" type="Email">
+        </div>
+        <button id="Submit">Submit</button>
+
+    </section>
+</body>
+
+</html>
