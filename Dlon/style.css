@@ -1,0 +1,106 @@
+
+.employee-form1 {
+    border-style: solid;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    padding: 10px;
+    /* width: 50%; */
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+.myform {
+            width: 520px;
+            height: 548px;
+            background-color: #00000096;
+            margin: -1px;
+            margin-top: 100px;
+            border-radius: 15px;
+            position: relative;
+            right: -64px;
+        }
+        .head {
+            height: 65px;
+            text-align: center;
+            line-height: 65px;
+            font-size: 2em;
+            border-bottom: 1px solid #ffffff;
+            color: #fff;
+            /* text-shadow: 0px -3px 1px rgba(0, 0, 0, 0.5); */
+            margin-bottom: 24px;
+        }
+
+     .myform>div>input {
+            display: block;
+            padding-left: 43px;
+            width: 92%;
+            height: 33px;
+            margin: 26px auto;
+            border-radius: 20px;
+            border: none;
+        }
+
+
+
+body > table{
+    width: 80%;
+}
+        table {
+            margin: auto;
+            position: relative;
+            top: -400px;
+            right: -350px;
+            border: solid;
+        }
+
+        table tr td {
+            margin: 500px;
+            width: 90px;
+        }
+
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
